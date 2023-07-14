@@ -89,7 +89,7 @@ class Parameters:
                 round(sum(lamb[k,:]) - lamb[k,k], tol) != round(1-lamb[k,k], tol) :
                 print("Incorrect lamb, the lamb[k,k] term need to " \
                       "equal to sum(lamb[k,:]")
-                print("the " + str(k)  + " column is incorrect: lamb[k,:].")
+                print("the " + str(k)  + " column is incorrect.")
                 raise StopIteration
     
 
